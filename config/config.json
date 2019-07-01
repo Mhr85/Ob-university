@@ -1,0 +1,21 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "exampledb",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "testdb",
+    "host": "localhost",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "production": {
+    "use_env_variable": "mysql://z5368zx35079ymdb:vxz5knsqnvdzt411@k2pdcy98kpcsweia.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/wf2d4fqr9ddn04uc",
+    "dialect": "mysql"
+  }
+}
